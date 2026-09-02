@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: wisecow-app:latest  # Note: Swap this with your Docker Hub image name later if deploying to a cloud cluster
+        image: example21/wisecow:latest  # Note: Swap this with your Docker Hub image name later if deploying to a cloud cluster
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4499
